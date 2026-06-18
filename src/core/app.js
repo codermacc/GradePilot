@@ -18,3 +18,49 @@ export function initApp() {
 
   navigate("splash");
 }
+
+document.addEventListener(
+  "click",
+  (e) => {
+
+    if(
+      e.target.id === "menuBtn"
+    ){
+
+      document
+      .querySelector(
+        ".gp-sidebar"
+      )
+      ?.classList.toggle(
+        "open"
+      );
+    }
+
+  }
+);
+
+import { router } from "./router.js";
+import { Navbar } from "../components/navbar/navbar.js";
+import { Sidebar } from "../components/sidebar/sidebar.js";
+
+export function initApp() {
+  const root = document.getElementById("app");
+
+  root.innerHTML = `
+    <div class="app-container">
+      <div id="sidebar"></div>
+
+      <div class="main-area">
+        <div id="navbar"></div>
+        <div id="page"></div>
+      </div>
+    </div>
+  `;
+
+  // Mount layout components
+  document.getElementById("navbar").appendChild(Navbar());
+  document.getElementById("sidebar").appendChild(Sidebar());
+
+  // Load initial route
+  router(window.location.hash || "#dashboard");
+}

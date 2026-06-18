@@ -1,1 +1,42 @@
+.dashboard-content{
 
+  padding:16px;
+
+  padding-bottom:100px;
+}
+
+.hero-card{
+
+  margin-bottom:20px;
+
+  background:
+  var(--gradient-hero);
+
+  color:white;
+}
+
+.hero-card h2{
+
+  font-size:40px;
+
+  margin-top:10px;
+}
+
+.dashboard-grid{
+
+  display:grid;
+
+  grid-template-columns:
+  repeat(
+    2,
+    1fr
+  );
+
+  gap:16px;
+
+  margin-bottom:20px;
+}
+
+.offline-card{
+  text-align:center;
+}

@@ -15,3 +15,17 @@ export function navigate(routeName) {
   app.innerHTML = "";
   app.appendChild(routes[routeName]());
 }
+
+import { Dashboard } from "../pages/dashboard/dashboard.js";
+
+export function router(route) {
+  const page = document.getElementById("page");
+
+  switch (route) {
+    case "#dashboard":
+    default:
+      page.innerHTML = "";
+      page.appendChild(Dashboard());
+      break;
+  }
+}

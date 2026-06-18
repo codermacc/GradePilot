@@ -1,1 +1,34 @@
+.gp-card{
 
+  background:
+  var(--gradient-card);
+
+  border:
+  1px solid
+  var(--border-color);
+
+  border-radius:
+  var(--radius-lg);
+
+  padding:20px;
+
+  -webkit-backdrop-filter:
+  blur(20px);
+
+  backdrop-filter:
+  blur(20px);
+
+  box-shadow:
+  var(--shadow-md);
+
+  transition:.3s ease;
+}
+
+.gp-card:hover{
+
+  transform:
+  translateY(-4px);
+
+  box-shadow:
+  var(--shadow-glow);
+}

@@ -1,1 +1,49 @@
+.gp-navbar{
 
+  position:sticky;
+
+  top:0;
+
+  height:72px;
+
+  display:flex;
+
+  justify-content:space-between;
+
+  align-items:center;
+
+  padding:0 16px;
+
+  background:
+  rgba(0,0,0,.15);
+
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter:blur(20px);
+
+  border-bottom:
+  1px solid var(--border-color);
+
+  z-index:var(--z-navbar);
+}
+
+.nav-center h1{
+
+  font-size:18px;
+
+  font-weight:700;
+}
+
+.nav-btn{
+
+  width:44px;
+  height:44px;
+
+  border:none;
+
+  border-radius:12px;
+
+  background:
+  var(--gradient-card);
+
+  color:var(--text-primary);
+}

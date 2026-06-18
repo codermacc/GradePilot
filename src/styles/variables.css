@@ -1,0 +1,113 @@
+:root {
+
+  /* ======================
+     BRAND COLORS
+  ====================== */
+
+  --primary: #00d26a;
+  --primary-light: #27f18c;
+  --primary-dark: #00994d;
+
+  --success: #00d26a;
+  --warning: #ffb800;
+  --danger: #ff4d4f;
+  --info: #3b82f6;
+
+  /* ======================
+     TYPOGRAPHY
+  ====================== */
+
+  --font-primary:
+    Inter,
+    "Segoe UI",
+    sans-serif;
+
+  --font-heading:
+    Poppins,
+    Inter,
+    sans-serif;
+
+  /* ======================
+     FONT SIZE
+  ====================== */
+
+  --fs-xs: 12px;
+  --fs-sm: 14px;
+  --fs-md: 16px;
+  --fs-lg: 18px;
+  --fs-xl: 22px;
+  --fs-2xl: 28px;
+  --fs-3xl: 36px;
+
+  /* ======================
+     FONT WEIGHT
+  ====================== */
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* ======================
+     SPACING
+  ====================== */
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+
+  /* ======================
+     BORDER RADIUS
+  ====================== */
+
+  --radius-xs: 8px;
+  --radius-sm: 12px;
+  --radius-md: 18px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-full: 999px;
+
+  /* ======================
+     SHADOWS
+  ====================== */
+
+  --shadow-sm:
+    0 4px 12px rgba(0,0,0,.08);
+
+  --shadow-md:
+    0 10px 25px rgba(0,0,0,.15);
+
+  --shadow-lg:
+    0 16px 40px rgba(0,0,0,.25);
+
+  --shadow-glow:
+    0 0 25px rgba(0,210,106,.25);
+
+  /* ======================
+     TRANSITIONS
+  ====================== */
+
+  --transition-fast: .2s ease;
+  --transition-base: .3s ease;
+  --transition-slow: .45s ease;
+
+  /* ======================
+     MOBILE
+  ====================== */
+
+  --mobile-width: 390px;
+
+  /* ======================
+     Z INDEX
+  ====================== */
+
+  --z-sidebar: 1000;
+  --z-navbar: 1100;
+  --z-modal: 1200;
+  --z-toast: 1300;
+}
